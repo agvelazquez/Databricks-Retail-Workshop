@@ -1,9 +1,4 @@
 # Databricks notebook source
-# DBTITLE 1,How to connect Datagrip to Databricks
-https://docs.databricks.com/dev-tools/datagrip.html
-
-# COMMAND ----------
-
 # DBTITLE 1,Mount "retail" blob container
 mount_point = "/mnt/retail"
 
@@ -28,3 +23,7 @@ base_folder = mount_point + "/retail_workshop_aug/"
 
 for f in dbutils.fs.ls(base_folder):
   print(f)
+
+# COMMAND ----------
+
+
