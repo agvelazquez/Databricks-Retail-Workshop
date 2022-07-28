@@ -1,6 +1,6 @@
 # Databricks notebook source
 # DBTITLE 1,How to connect Datagrip to Databricks
-https://docs.databricks.com/dev-tools/datagrip.html
+# https://docs.databricks.com/dev-tools/datagrip.html
 
 # COMMAND ----------
 
